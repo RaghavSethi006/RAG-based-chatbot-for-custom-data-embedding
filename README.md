@@ -44,19 +44,6 @@ PyMuPDF
 ├── .env                # API keys (Groq, HuggingFace, etc.)  
 └── vectorstore/        # FAISS index (auto-created after upload)  
 
-⚡ Setup Instructions
-1. Clone the repo
-git clone https://github.com/your-username/streamlit-rag-groq.git
-cd streamlit-rag-groq
-
-2. Create a virtual environment
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
-
-3. Install dependencies
-pip install -r requirements.txt
-
 4. Add environment variables
 
 Create a .env file:
